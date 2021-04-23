@@ -3,7 +3,7 @@
 
 # Overview
 
-Please build a react carousel, without using existing plugins.
+Please build a react carousel, without using react hooks.
 
 
 [Preview Link](https://www.loom.com/share/d0bc537eb8b146b8ba0d3cfcfb70d891)
