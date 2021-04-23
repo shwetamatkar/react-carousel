@@ -5,6 +5,9 @@
 
 Please build a react carousel, without using existing plugins.
 
+
+[Preview Link](https://www.loom.com/share/d0bc537eb8b146b8ba0d3cfcfb70d891)
+
 ## Requirements:
 * by default display 4 elements. 
 * navigation is made with next and previous buttons. 
