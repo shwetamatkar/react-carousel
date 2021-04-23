@@ -1,1 +1,1 @@
-# react-carousel
+# A Simple React Carousel
