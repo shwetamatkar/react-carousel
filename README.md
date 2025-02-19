@@ -1,32 +1,45 @@
-# A Simple React Carousel
+# Simple React Carousel
 
+## Overview
 
-# Overview
-
-Please build a react carousel, without using react hooks.
-
+This project is a simple React carousel built **without using React hooks**. The carousel dynamically fetches data from an API endpoint and displays a set of blocks containing images and titles.
 
 [Preview Link](https://www.loom.com/share/d0bc537eb8b146b8ba0d3cfcfb70d891)
 
-## Requirements:
-* by default display 4 elements. 
-* navigation is made with next and previous buttons. 
-* Next button should be disabled, if user is at the very end of the carousel. 
-* Previous button should be disabled, if user is at the very beginning of carousel. 
-* Clicking on next/previous buttons shows next/prev 4 carousel blocks accordingly. 
+## Features & Requirements
+- Displays **4 elements by default**.
+- **Navigation buttons** for moving forward and backward.
+- **Next button disabled** at the end of the carousel.
+- **Previous button disabled** at the beginning of the carousel.
+- Clicking **Next/Previous** buttons loads the next/previous 4 carousel blocks accordingly.
 
-The source of carousel block is endpoint on server that return following JSON:
+## Data Source
+The carousel fetches data from a server endpoint that returns JSON in the following format:
 
-`
-  [{
-    title: "First Block",
-    images: [url1, url2, url3]
+```json
+[
+  {
+    "title": "First Block",
+    "images": ["url1", "url2", "url3"]
   },
-{
-    title: “Second Block",
-    images: [url7, url8]
-  } 
-  ,...]
-`
+  {
+    "title": "Second Block",
+    "images": ["url7", "url8"]
+  },
+  ...
+]
+```
 
-> Display a random image for each block from the set of images.
+## Display Logic
+- Each block in the carousel consists of a **title** and **a random image** from its associated set of images.
+- The displayed image for each block is selected randomly from the available images in the array.
+
+## Implementation Guidelines
+- The carousel must be implemented **without React hooks**.
+- Ensure smooth navigation and an intuitive user experience.
+- Fetch and display data efficiently while handling potential errors.
+
+---
+
+This project is a great exercise in working with **React class components**, managing state, and implementing efficient data handling techniques. 🚀
+
