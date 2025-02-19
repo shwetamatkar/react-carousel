@@ -31,7 +31,7 @@ The carousel fetches data from a server endpoint that returns JSON in the follow
 ```
 
 ## Display Logic
-- Each block in the carousel consists of a **title** and **a random image** from its associated set of images.
+- Each block in the carousel consists of a **title** and **a random image** from its associated images.
 - The displayed image for each block is selected randomly from the available images in the array.
 
 ## Implementation Guidelines
@@ -41,5 +41,5 @@ The carousel fetches data from a server endpoint that returns JSON in the follow
 
 ---
 
-This project is a great exercise in working with **React class components**, managing state, and implementing efficient data handling techniques. 🚀
+This project is a great exercise in working with **React class components**, managing state, and implementing efficient data handling techniques. 
 
